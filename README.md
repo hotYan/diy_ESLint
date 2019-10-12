@@ -1,6 +1,6 @@
 # 前端项目开发代码规范V1.0.0
 
-## js规范
+## JS规范
 
 #### 1.禁止使用`var`关键字声名变量；
 - 设置
@@ -91,12 +91,14 @@
 #### 8. 操作符号前后必须有空格；
 - 设置
 	```readme
-       "space-unary-ops":["error",{"nonwords": true}]	//要求在一元操作符之前或之后存在空格 
+    "space-unary-ops":["error",{"nonwords": true}]	//要求在一元操作符之前或之后存在空格 
 	```
 - 正确用例
 	```js
 	let a = 1 + 3;
 	```
+
+<br/>
 
 ## vue规范
 
@@ -126,6 +128,8 @@
 	```html
 	<p v-for="(item, index) in formData" :key="index"></p>
 	```
+	
+<br/>
 
 ## 命名规范
 
@@ -136,28 +140,22 @@
 	```
 
 
-#### 2. 组件名的单词顺序：动词+名词；
+#### 2. 组件名的命名格式：动词+名词；
 
-- 设置
-	```readme
-	
-	```
 - 正确用例
 	```
 	CreatedEnterprise.vue
 	```
 #### 3. 其他js, css, 图片等文件使用小驼峰格式；
 
-- 设置
-	```readme
-	
-	```
 - 正确用例
 	```
 	index.js
 	homeLayout.css
 	```
 
+	
+<br/>
 
 ## 代码规范建议
 
