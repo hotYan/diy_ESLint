@@ -26,7 +26,7 @@
 #### 4. 单行注释必须在行尾
 - 设置
 	```readme
-    'line-comment-position': 'beside'	//强制行注释只在代码行后面
+    'line-comment-position': ['error', { 'position': 'beside' }],	//强制行注释只在代码行后面
 	```
 - 正确用例
 
@@ -69,7 +69,7 @@
 #### 6. 字符串最外层必须使用单引号或反引号；
 - 设置
 	```readme
-	"quotes": ["error", "double", { "allowTemplateLiterals": true }]	//字符串使用单引号或反引号
+	"quotes": ["error", "single", { "allowTemplateLiterals": true }]	//字符串使用单引号或反引号
 	```
 
 
