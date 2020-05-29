@@ -27,9 +27,9 @@ module.exports={
     "rules": {
         /** 
          * ESLint: http://eslint.cn/docs/rules/
-         * off->关闭
-         * warn-> 警告
-         * off-> 错误
+         * off | 0 ->关闭
+         * warn | 1 -> 警告
+         * error | 2 -> 错误
          */
         /**
          * 默认先关闭 配置文件中的 "extends": "eslint:recommended" 属性启用了的规则
